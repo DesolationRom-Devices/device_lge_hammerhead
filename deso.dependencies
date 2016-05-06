@@ -7,8 +7,8 @@
  },
  {
    "remote":      "github",
-   "repository":  "TipsyOs-Devices/Hammerhead_Drunk_Kernel",
+   "repository":  "USA-RedDragon/Werewolf-hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "6.0"
+   "branch":      "inline"
  }
 ]
