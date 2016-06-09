@@ -115,11 +115,11 @@ TARGET_KERNEL_CONFIG := werewolf_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 # Optimizations
-#CLANG_O3 := true
+CLANG_O3 := true
 #STRICT_ALIASING := false
-#KRAIT_TUNINGS := true
-#GRAPHITE_OPTS := true
-#ENABLE_GCCONLY := true
+KRAIT_TUNINGS := true
+GRAPHITE_OPTS := true
+ENABLE_GCCONLY := true
 
 HAVE_ADRENO_SOURCE:= false
 
