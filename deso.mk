@@ -13,11 +13,10 @@ $(call inherit-product, vendor/deso/config/nfc_enhanced.mk)
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := hammerhead
 PRODUCT_NAME := deso_hammerhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5
-PRODUCT_MANUFACTURER := LGE
+PRODUCT_MANUFACTURER := lge
 
 TARGET_GCC_VERSION_ARM := 5.4-gnu
 TARGET_GCC_VERSION_EXP := 4.9
